@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A498A</color>
+    <color name="colorPrimaryDark">#52113F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorAccentPink">#9b1ac9</color>
+    <color name="colorPrimaryBlack">#710d95</color>
+    <color name="colorP">#9b1ac3</color>
+    <color name="coloWhite">#FFF</color>
+    <color name="AriZonaBlue">#6399FF</color>
+    <color name="AriZonaYellow">#FCCD23</color>
+    <color name="OffWhite">#E0E0E0</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorAccentPink">#9b1ac9</color>
+    <color name="colorGreenOnline">#4CAF50</color>
+    <color name="colorP">#9b1ac3</color>
+    <color name="coloWhite">#FFF</color>
+    <color name="AriZonaBlue">#6399FF</color>
+    <color name="AriZonaYellow">#FCCD23</color>
+    <color name="OffWhite">#E0E0E0</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#0D75B8</color>
+    <color name="endblue">#0bcce6</color>
+
+
+    <color name="MainYellow1">#F69C03</color>
+    <color name="MainYellow">#FBC702</color>
+    <color name="DarkYellow">#FF9E3D</color>
+    <color name="MainBrown">#3F3222</color>
+    <color name="Bb">#2C2419</color>
+    <color name="grey">#B72C2419</color>
+    <color name="ShadowYellow">#DB7D1D</color>
+
+
+
+</resources>

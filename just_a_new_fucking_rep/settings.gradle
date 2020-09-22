@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Diser App Beta 1.0'

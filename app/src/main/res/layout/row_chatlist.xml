@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/MainYellow"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="35dp"
+    app:contentPadding="5dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/profileIv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_planet_icon"
+        />
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/onlineStatusIv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp" />
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:text="Некто"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:textColor="@color/coloWhite"
+        android:textSize="25sp"
+        android:layout_toEndOf="@id/profileIv"
+        android:layout_toRightOf="@id/profileIv"
+        android:layout_marginLeft="6dp" />
+    <TextView
+        android:id="@+id/lastMessageTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:maxLines="2"
+        android:textColor="@color/grey"
+        android:layout_toEndOf="@id/profileIv"
+        android:layout_toRightOf="@id/profileIv"
+        android:layout_below="@+id/nameTv"
+        android:layout_marginLeft="4dp" />
+    <TextView
+        android:id="@+id/lastTimeTv"
+        android:text=""
+        android:textColor="@color/grey"
+        android:layout_toEndOf="@id/profileIv"
+        android:layout_toRightOf="@id/profileIv"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="82dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MainYellow</item>
+        <item name="colorPrimaryDark">@color/MainYellow</item>
+        <item name="colorAccent">@color/MainYellow</item>
+    </style>
+
+    <style name="AppThemeNo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MainYellow</item>
+        <item name="colorPrimaryDark">@color/MainYellow</item>
+        <item name="colorAccent">@color/MainYellow</item>
+    </style>
+
+    <style name="AppThemeNo1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/MainYellow</item>
+        <item name="colorPrimaryDark">@color/MainYellow</item>
+        <item name="colorAccent">@color/colorBlack</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/MainYellow</item>
+        <item name="android:windowBackground">@color/coloWhite</item>
+        <item name="android:textSize">30sp</item>
+        <item name="colorPrimaryDark">@color/Bb</item>
+        <item name="colorAccent">@color/MainYellow</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">?android:attr/listDivider</item> //you can give your color here. that will change all divider color in your app.
+    </style>
+    <style name="Divider.Horizontal" parent="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item> // You can change thickness here.
+
+    </style>
+
+    <style name="ToggleSwitchButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="outerRadius">50dp</item>
+        <item name="handleDrawable">@drawable/ic_perm_identity_black_24dp</item>
+        <item name="upper">@drawable/ic_visibility_off_black_24dp</item>
+        <item name="bottom">@drawable/ic_visibility_black_24dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

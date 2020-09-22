@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/ic_background1">
+
+    //Logo
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:layout_above="@+id/register_btn"
+        android:padding="80dp"
+        />
+
+    //Register Button
+
+    <Button
+        android:id="@+id/register_btn"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_button"
+        android:drawableStart="@drawable/ic_account_circle_black_24dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:drawablePadding="-30dp"
+        android:fontFamily="@font/muli_semibold"
+        android:minWidth="230dp"
+        android:paddingLeft="15dp"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="@color/AriZonaBlue"
+        android:textSize="25dp" />
+
+    //Login Button
+    <Button
+        android:id="@+id/login_btn"
+        android:text="Sign in"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="-30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/muli_semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/AriZonaBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:minWidth="230dp"/>
+
+
+</RelativeLayout>
